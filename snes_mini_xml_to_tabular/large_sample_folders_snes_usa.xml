@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Tree>
+  <Folder name="Series" icon="folder" position="3">
+    <Folder name="Action-Adventure" icon="folder" position="3">
+      <Folder name="Paperboy" icon="folder" position="3">
+        <Game code="CLV-B-UZSOP" name="Paperboy" />
+        <Game code="CLV-6-QTPGF" name="Paperboy" />
+        <Game code="CLV-U-QBXLH" name="Paperboy 2" />
+      </Folder>
+      <Folder name="Rampage" icon="folder" position="3">
+        <Game code="CLV-C-TLAAK" name="Rampage - World Tour" />
+        <Game code="CLV-6-XMEEJ" name="Rampage - World Tour" />
+        <Game code="CLV-C-OGXID" name="Rampage 2 - Universal Tour" />
+        <Game code="CLV-6-TORHR" name="Rampage 2 - Universal Tour" />
+      </Folder>
+      <Folder name="Spyro" icon="folder" position="3">
+        <Game code="CLV-F-KJNRS" name="Spyro - Year of the Dragon" />
+        <Game code="CLV-F-JBCBJ" name="Spyro 2 - Ripto's Rage!" />
+        <Game code="CLV-F-FNOQH" name="Spyro the Dragon" />
+      </Folder>
+      <Folder name="Zelda" icon="folder" position="3">
+        <Game code="CLV-B-XVJBN" name="Legend of Zelda, The - Link's Awakening" />
+        <Game code="CLV-C-ETWQA" name="Legend of Zelda, The - Link's Awakening DX" />
+        <Game code="CLV-6-TPGTW" name="Legend of Zelda, The - Majora's Mask" />
+        <Game code="CLV-6-NTDAV" name="Legend of Zelda, The - Ocarina of Time" />
+        <Game code="CLV-6-HOXBQ" name="Legend of Zelda, The - Ocarina of Time - Master Quest" />
+        <Game code="CLV-C-HAEVM" name="Legend of Zelda, The - Oracle of Ages" />
+        <Game code="CLV-C-TIZVW" name="Legend of Zelda, The - Oracle of Seasons" />
+        <Game code="CLV-H-DJCAI" name="Legend of Zelda, The" />
+        <Game code="CLV-H-DZLFT" name="Zelda 2 - the Adventure of Link # NES" />
+      </Folder>
+    </Folder>
+    <Folder name="Beat'em up" icon="folder" position="3">
+      <Folder name="Battletoads" icon="folder" position="3">
+        <Game code="CLV-H-YIWQJ" name="Battletoads" />
+        <Game code="CLV-H-EEOQF" name="Battletoads &amp; Double Dragon: The Ultimate Team" />
+      </Folder>
+      <Folder name="Double Dragon" icon="folder" position="3">
+        <Game code="CLV-I-FCDOG" name="Double Dragon" />
+        <Game code="CLV-B-ECFHU" name="Double Dragon" />
+        <Game code="CLV-H-XDMVM" name="Double Dragon" />
+        <Game code="CLV-I-OQCBV" name="Double Dragon 2" />
+        <Game code="CLV-B-SRLPJ" name="Double Dragon 2" />
+        <Game code="CLV-H-KUZFN" name="Double Dragon II: The Revenge" />
+        <Game code="CLV-B-HDOCL" name="Double Dragon 3" />
+        <Game code="CLV-I-AEFDK" name="Double Dragon 3 - The Arcade Game" />
+        <Game code="CLV-H-TXAOX" name="Double Dragon III: The Sacred Stones" />
+        <Game code="CLV-I-RVFRO" name="Double Dragon V - The Shadow Falls" />
+      </Folder>
+      <Folder name="Final Fight" icon="folder" position="3">
+        <Game code="CLV-A-BSOXE" name="0128 - Final Fight One" />
+        <Game code="CLV-U-NCYUE" name="Final Fight" />
+        <Game code="CLV-U-HCJFH" name="Final Fight 2" />
+        <Game code="CLV-U-IAJTB" name="Final Fight 3" />
+        <Game code="CLV-U-UQCFT" name="Final Fight Guy" />
+      </Folder>
+      <Folder name="Streets of Rage" icon="folder" position="3">
+        <Game code="CLV-I-KSLWD" name="Streets of Rage" />
+        <Game code="CLV-I-ULJNX" name="Streets of Rage 2" />
+        <Game code="CLV-I-JSQCP" name="Streets of Rage 3" />
+      </Folder>
+      <Folder name="TMNT" icon="folder" position="3">
+        <Game code="CLV-B-NZVYL" name="Teenage Mutant Ninja Turtles - Back From the Sewers" />
+        <Game code="CLV-B-HSPLQ" name="Teenage Mutant Ninja Turtles - Fall of the Foot Clan" />
+        <Game code="CLV-I-AIMIT" name="Teenage Mutant Ninja Turtles - The Hyperstone Heist" />
+        <Game code="CLV-B-QLKAM" name="Teenage Mutant Ninja Turtles III - Radical Rescue" />
+      </Folder>
+    </Folder>
+    <Folder name="Disney" icon="folder" position="3">
+      <Game code="CLV-U-EVAVR" name="Lion King, The" />
+      <Game code="CLV-B-JHYBM" name="Lion King, The" />
+      <Game code="CLV-C-NPPJN" name="Lion King, The - Simba's Mighty Adventure" />
+    </Folder>
+    <Folder name="Farm Simulation" icon="folder" position="3">
+      <Game code="CLV-U-CEGWS" name="Harvest Moon" />
+      <Game code="CLV-F-WANZT" name="Harvest Moon - Back to Nature" />
+      <Game code="CLV-C-CJQQH" name="Harvest Moon 2 GBC" />
+      <Game code="CLV-C-XANGZ" name="Harvest Moon 3 GBC" />
+      <Game code="CLV-6-VXQNC" name="Harvest Moon 64" />
+      <Game code="CLV-C-FFACL" name="Harvest Moon GB" />
+      <Game code="CLV-B-SWBEW" name="Harvest Moon GB" />
+    </Folder>
+    <Folder name="Fighting" icon="folder" position="3">
+      <Folder name="Battle Arena Toshinden" icon="folder" position="3">
+        <Game code="CLV-F-ANZQJ" name="Battle Arena Toshinden" />
+        <Game code="CLV-F-XIOSG" name="Battle Arena Toshinden 2" />
+        <Game code="CLV-F-PVLNR" name="Battle Arena Toshinden 3" />
+      </Folder>
+      <Folder name="Bloody Roar" icon="folder" position="3">
+        <Game code="CLV-F-YVRVO" name="Bloody Roar" />
+        <Game code="CLV-F-IMCWF" name="Bloody Roar II" />
+      </Folder>
+      <Folder name="Killer Instinct" icon="folder" position="3">
+        <Game code="CLV-B-GCWKD" name="Killer Instinct" />
+        <Game code="CLV-U-QWMFC" name="Killer Instinct" />
+        <Game code="CLV-6-EBPQZ" name="Killer Instinct Gold" />
+      </Folder>
+      <Folder name="Mortal Kombat" icon="folder" position="3">
+        <Game code="CLV-A-JWIZF" name="0247 - Mortal Kombat Advance" />
+        <Game code="CLV-U-BIEMF" name="Mortal Kombat" />
+        <Game code="CLV-B-JNSUE" name="Mortal Kombat" />
+        <Game code="CLV-U-RPHFG" name="Mortal Kombat 3" />
+        <Game code="CLV-B-ZRJGX" name="Mortal Kombat 3" />
+        <Game code="CLV-C-IARCL" name="Mortal Kombat 4" />
+        <Game code="CLV-6-ASTMF" name="Mortal Kombat 4" />
+        <Game code="CLV-B-WMGLT" name="Mortal Kombat I &amp; II" />
+        <Game code="CLV-U-BKJYJ" name="Mortal Kombat II" />
+        <Game code="CLV-B-IQJRY" name="Mortal Kombat II" />
+        <Game code="CLV-6-MCZGJ" name="Mortal Kombat Trilogy" />
+      </Folder>
+      <Folder name="Street Fighter" icon="folder" position="3">
+        <Game code="CLV-A-SXTWV" name="0329 - Super Street Fighter II Turbo Revival" />
+        <Game code="CLV-F-RLHQA" name="Street Fighter - The Movie" />
+        <Game code="CLV-F-AEGBD" name="Street Fighter Alpha - Warriors' Dreams" />
+        <Game code="CLV-F-LNMFY" name="Street Fighter Alpha 2" />
+        <Game code="CLV-F-PELKV" name="Street Fighter Alpha 3" />
+        <Game code="CLV-P-ONXZR" name="Street Fighter Collection" />
+        <Game code="CLV-F-ZBFUQ" name="Street Fighter Collection 2" />
+        <Game code="CLV-F-JXUHB" name="Street Fighter EX Plus Alpha" />
+        <Game code="CLV-F-HIPFC" name="Street Fighter EX2 Plus" />
+        <Game code="CLV-B-VDKNC" name="Street Fighter II" />
+      </Folder>
+      <Folder name="Tekken" icon="folder" position="3">
+        <Game code="CLV-F-YPQLY" name="Tekken" />
+        <Game code="CLV-F-TVHOB" name="Tekken 2" />
+        <Game code="CLV-F-SLQVY" name="Tekken 3" />
+      </Folder>
+      <Folder name="TMNT" icon="folder" position="3">
+        <Game code="CLV-I-XBAVZ" name="Teenage Mutant Ninja Turtles - Tournament Fighters" />
+      </Folder>
+    </Folder>
+    <Folder name="FPSs" icon="folder" position="3">
+      <Folder name="Doom" icon="folder" position="3">
+        <Game code="CLV-A-TLZBA" name="0155 - Doom" />
+        <Game code="CLV-F-BXSTN" name="Doom" />
+        <Game code="CLV-6-TRLOZ" name="Doom 64" />
+        <Game code="CLV-F-VDKXT" name="Final Doom" />
+      </Folder>
+      <Folder name="Turok" icon="folder" position="3">
+        <Game code="CLV-6-UMPNH" name="Turok - Dinosaur Hunter" />
+        <Game code="CLV-6-WZSUS" name="Turok - Rage Wars" />
+        <Game code="CLV-6-ZFAVD" name="Turok 2 - Seeds of Evil" />
+        <Game code="CLV-6-KBGSA" name="Turok 3 - Shadow of Oblivion" />
+      </Folder>
+    </Folder>
+    <Folder name="Hack and Slash" icon="folder" position="3">
+      <Folder name="Gauntlet" icon="folder" position="3">
+        <Game code="CLV-H-ZKXZP" name="Gauntlet" />
+        <Game code="CLV-H-DWHLX" name="Gauntlet II" />
+        <Game code="CLV-I-QADWT" name="Gauntlet 4" />
+        <Game code="CLV-I-NQYUO" name="Gauntlet Arcade Version" />
+        <Game code="CLV-6-AETIV" name="Gauntlet Legends" />
+        <Game code="CLV-F-ZQXOY" name="Gauntlet Legends" />
+      </Folder>
+      <Folder name="Golden Axe" icon="folder" position="3">
+        <Game code="CLV-I-QAEMV" name="Golden Axe" />
+        <Game code="CLV-I-QQAEJ" name="Golden Axe II" />
+        <Game code="CLV-I-VDXCU" name="Golden Axe III" />
+      </Folder>
+    </Folder>
+    <Folder name="Life Simulation" icon="folder" position="3" />
+    <Folder name="Mainstream" icon="folder" position="3">
+      <Folder name="Adventure Island" icon="folder" position="3">
+        <Game code="CLV-H-ATQCU" name="Adventure Island Classic" />
+        <Game code="CLV-H-RIOPH" name="Adventure Island II" />
+        <Game code="CLV-H-RYOZZ" name="Adventure Island III" />
+      </Folder>
+      <Folder name="Adventures of Lolo" icon="folder" position="3">
+        <Game code="CLV-H-SFQAA" name="Adventures of Lolo" />
+        <Game code="CLV-H-ZVGPT" name="Adventures of Lolo 2" />
+        <Game code="CLV-H-XDFIH" name="Adventures of Lolo 3" />
+      </Folder>
+      <Folder name="Batman" icon="folder" position="3">
+        <Game code="CLV-H-AVGKE" name="Batman" />
+        <Game code="CLV-H-MCBSR" name="Bat-Man Returns" />
+      </Folder>
+      <Folder name="Castlevania" icon="folder" position="3">
+        <Game code="CLV-A-WDUES" name="0045 - Castlevania - Circle of the Moon" />
+        <Game code="CLV-I-RCBDN" name="Castlevania - Bloodlines" />
+        <Game code="CLV-F-SQMAN" name="Castlevania - Symphony of the Night" />
+        <Game code="CLV-I-FNXRX" name="Castlevania - The New Generation" />
+        <Game code="CLV-H-CNXBG" name="Castlevania" />
+        <Game code="CLV-H-AVMEH" name="Castlevania II: Simon's Quest" />
+        <Game code="CLV-H-OTBWY" name="Castlevania III: Dracula's Curse" />
+      </Folder>
+      <Folder name="Crash Bandicoot" icon="folder" position="3">
+        <Game code="CLV-F-ISZUM" name="Crash Bandicoot" />
+        <Game code="CLV-F-HXRLL" name="Crash Bandicoot - Warped" />
+        <Game code="CLV-F-FGPUZ" name="Crash Bandicoot 2 - Cortex Strikes Back" />
+      </Folder>
+      <Folder name="Disney" icon="folder" position="3">
+        <Game code="CLV-H-FLTLV" name="Chip 'n Dale Rescue Rangers, Disney's" />
+        <Game code="CLV-H-NBEFH" name="Chip 'n Dale Rescue Rangers 2, Disney's" />
+        <Game code="CLV-H-JLKBN" name="DuckTales, Disney's" />
+        <Game code="CLV-H-ABZZG" name="DuckTales 2, Disney's" />
+      </Folder>
+      <Folder name="Donkey Kong" icon="folder" position="3">
+        <Game code="CLV-B-VRXML" name="Donkey Kong Land" />
+        <Game code="CLV-B-MQJTS" name="Donkey Kong Land 2" />
+        <Game code="CLV-B-YJVJL" name="Donkey Kong Land III" />
+      </Folder>
+      <Folder name="Goemon" icon="folder" position="3">
+        <Game code="CLV-6-PLSCZ" name="Goemon's Great Adventure" />
+        <Game code="CLV-U-QBHNE" name="Legend of the Mystical Ninja, The" />
+        <Game code="CLV-6-SIYXI" name="Mystical Ninja Starring Goemon" />
+      </Folder>
+      <Folder name="James Pond" icon="folder" position="3">
+        <Game code="CLV-I-KFJVO" name="James Pond" />
+        <Game code="CLV-I-IXTDO" name="James Pond 2 - Codename RoboCod" />
+        <Game code="CLV-I-PPZKD" name="James Pond 3 - Operation Starfish" />
+      </Folder>
+      <Folder name="Kirby" icon="folder" position="3">
+        <Game code="CLV-U-GSLXV" name="Kirby Super Star" />
+        <Game code="CLV-U-WRCOW" name="Kirby's Avalanche" />
+        <Game code="CLV-U-BWQIO" name="Kirby's Dream Course" />
+        <Game code="CLV-B-BBNKG" name="Kirby's Dream Land 2" />
+        <Game code="CLV-B-GKOCJ" name="Kirby's Star Stacker" />
+      </Folder>
+      <Folder name="Mario" icon="folder" position="3">
+        <Game code="CLV-A-ZVHYZ" name="0025 - Super Mario Advance" />
+        <Game code="CLV-6-DMLGM" name="Super Mario 64" />
+        <Game code="CLV-C-XVDWA" name="Super Mario Bros. Deluxe" />
+        <Game code="CLV-B-SJBNE" name="Super Mario Land" />
+        <Game code="CLV-B-CGEND" name="Super Mario Land 2 - 6 Golden Coins" />
+      </Folder>
+      <Folder name="Mega Man (GB)" icon="folder" position="3">
+        <Game code="CLV-B-OORYG" name="Megaman - Dr. Wily's Revenge" />
+        <Game code="CLV-B-KSRLR" name="Megaman II" />
+        <Game code="CLV-B-HBNDD" name="Megaman III" />
+        <Game code="CLV-B-TOYHS" name="Megaman IV" />
+        <Game code="CLV-B-TUSRS" name="Megaman V" />
+      </Folder>
+      <Folder name="Mega Man (NES/PSX)" icon="folder" position="3">
+        <Game code="CLV-H-KZOYG" name="Mega Man" />
+        <Game code="CLV-F-FGLHZ" name="Mega Man 8" />
+        <Game code="CLV-H-YRPPK" name="Mega Man 2" />
+        <Game code="CLV-H-PQEZF" name="Mega Man 3" />
+        <Game code="CLV-H-STEAY" name="Mega Man 4" />
+        <Game code="CLV-H-STLXR" name="Mega Man 5" />
+        <Game code="CLV-H-ADERW" name="Mega Man 6" />
+      </Folder>
+      <Folder name="Mega Man X (SNES/PSX)" icon="folder" position="3">
+        <Game code="CLV-U-GJBCD" name="Mega Man X" />
+        <Game code="CLV-U-FGOYJ" name="Mega Man X2" />
+        <Game code="CLV-U-VFPHW" name="Mega Man X3" />
+        <Game code="CLV-F-ZAXJR" name="Mega Man X4" />
+        <Game code="CLV-F-LGUKJ" name="Mega Man X5" />
+        <Game code="CLV-F-NLAVD" name="Mega Man X6" />
+      </Folder>
+      <Folder name="Metroid" icon="folder" position="3">
+        <Game code="CLV-B-YXIYE" name="Metroid II - Return of Samus" />
+      </Folder>
+      <Folder name="Resident Evil" icon="folder" position="3">
+        <Game code="CLV-F-EEJHR" name="Resident Evil" />
+        <Game code="CLV-F-FJFSR" name="Resident Evil - Director's Cut" />
+        <Game code="CLV-F-JXTGO" name="Resident Evil - Survivor" />
+        <Game code="CLV-P-GUEJK" name="Resident Evil 2" />
+        <Game code="CLV-F-OCRVQ" name="Resident Evil 3 - Nemesis" />
+      </Folder>
+      <Folder name="Rockman X" icon="folder" position="3">
+        <Game code="CLV-U-UUZAQ" name="Rockman X" />
+        <Game code="CLV-U-FIYMP" name="Rockman X 2" />
+        <Game code="CLV-U-TXYZP" name="Rockman X 3" />
+      </Folder>
+      <Folder name="Sonic" icon="folder" position="3">
+        <Game code="CLV-I-GENKC" name="Sonic &amp; Knuckles" />
+        <Game code="CLV-I-DCXZX" name="Sonic and Knuckles" />
+        <Game code="CLV-I-ZWJUJ" name="Sonic the Hedgehog" />
+        <Game code="CLV-I-DAEGB" name="Sonic the Hedgehog 2" />
+        <Game code="CLV-I-MOCVR" name="Sonic the Hedgehog 3" />
+      </Folder>
+      <Folder name="Spider-Man" icon="folder" position="3">
+        <Game code="CLV-I-DBQWL" name="Maximum Carnage" />
+        <Game code="CLV-U-YGBIB" name="Spider-Man" />
+        <Game code="CLV-U-MAWXD" name="Spider-Man-Venom - Maximum Carnage" />
+        <Game code="CLV-U-VQCKP" name="Venom-Spider-Man - Separation Anxiety" />
+        <Game code="CLV-U-BULXK" name="Spider-Man-X-Men - Arcade's Revenge" />
+        <Game code="CLV-I-IJPJK" name="Spider-Man and Venom - Maximum Carnage" />
+        <Game code="CLV-I-GLZJY" name="Spider-Man and Venom - Separation Anxiety" />
+        <Game code="CLV-I-QBZMS" name="Spider-Man and X-Men - Arcade's Revenge" />
+        <Game code="CLV-I-XQHSI" name="Spider-Man vs Kingpin" />
+      </Folder>
+      <Folder name="Tomb Raider" icon="folder" position="3" />
+      <Folder name="X-Men" icon="folder" position="3">
+        <Game code="CLV-C-FJSYM" name="X-Men - Mutant Academy" />
+        <Game code="CLV-C-EJMBX" name="X-Men - Mutant Wars" />
+        <Game code="CLV-C-APIWR" name="X-Men - Wolverine's Rage" />
+      </Folder>
+    </Folder>
+    <Folder name="Pinball" icon="folder" position="3">
+      <Game code="CLV-A-NUPRE" name="0480 - The Pinball of the Dead" />
+      <Game code="CLV-B-GNFOQ" name="Kirby's Pinball Land" />
+      <Game code="CLV-U-YVLOL" name="Pinball Dreams" />
+      <Game code="CLV-U-AJKHC" name="Pinball Fantasies" />
+      <Game code="CLV-I-XTUUM" name="Sonic Spinball" />
+      <Game code="CLV-I-CDAEV" name="Virtual Pinball" />
+    </Folder>
+    <Folder name="Puzzles" icon="folder" position="3">
+      <Folder name="Bomberman" icon="folder" position="3">
+        <Game code="CLV-A-FDJAA" name="0452 - Bomberman Max 2 Blue Advance" />
+        <Game code="CLV-A-EYVWB" name="0453 - Bomberman Max 2 Red Advance" />
+        <Game code="CLV-6-KKSZR" name="Bomberman 64" />
+        <Game code="CLV-6-LSQUT" name="Bomberman 64 - The Second Attack!" />
+        <Game code="CLV-C-TSVIC" name="Bomberman Max - Blue Champion" />
+        <Game code="CLV-C-IWTHN" name="Bomberman Max - Red Challenger" />
+        <Game code="CLV-B-EGLNT" name="Pocket Bomberman" />
+      </Folder>
+      <Folder name="Bust-A-Move" icon="folder" position="3">
+        <Game code="CLV-6-PBRPS" name="Bust-A-Move `99" />
+        <Game code="CLV-F-CTRPD" name="Bust-A-Move `99" />
+        <Game code="CLV-6-NNFPB" name="Bust-A-Move 2 - Arcade Edition" />
+        <Game code="CLV-F-JJOGF" name="Bust-A-Move 2 - Arcade Edition" />
+        <Game code="CLV-F-XGJYT" name="Bust-A-Move 4" />
+      </Folder>
+      <Folder name="Columns" icon="folder" position="3">
+        <Game code="CLV-F-LOBQM" name="Super Puzzle Fighter II Turbo" />
+      </Folder>
+      <Folder name="Puyo" icon="folder" position="3">
+        <Game code="CLV-A-WGWPG" name="0293 - Puyo Pop" />
+      </Folder>
+      <Folder name="Tetris" icon="folder" position="3">
+        <Game code="CLV-A-EAAZZ" name="0104 - Tetris Worlds" />
+        <Game code="CLV-6-KKXDN" name="Magical Tetris Challenge" />
+        <Game code="CLV-6-QHJKU" name="New Tetris, The" />
+        <Game code="CLV-6-RWGGX" name="Pokemon Puzzle League" />
+        <Game code="CLV-I-CPJOI" name="Tetris" />
+        <Game code="CLV-B-HZCRP" name="Tetris" />
+        <Game code="CLV-B-XIPKU" name="Tetris 2" />
+        <Game code="CLV-B-VMDAW" name="Tetris Attack" />
+        <Game code="CLV-B-XDFVG" name="Tetris Blast" />
+        <Game code="CLV-B-FNKIT" name="Tetris Plus" />
+        <Game code="CLV-F-TCCOY" name="Tetris Plus" />
+      </Folder>
+    </Folder>
+    <Folder name="RPGs" icon="folder" position="3">
+      <Folder name="Arc the Lad" icon="folder" position="3">
+        <Game code="CLV-F-ITOLA" name="Arc the Lad Collection - Arc Arena - Monster Tournament" />
+        <Game code="CLV-F-AEYLS" name="Arc the Lad Collection - Arc the Lad" />
+        <Game code="CLV-F-WQYVO" name="Arc the Lad Collection - Arc the Lad II" />
+        <Game code="CLV-P-ATUZN" name="Arc the Lad Collection - Arc the Lad III" />
+      </Folder>
+      <Folder name="Dragon Quest" icon="folder" position="3">
+        <Game code="CLV-H-WBMTL" name="Dragon Warrior" />
+        <Game code="CLV-H-IMGWJ" name="Dragon Warrior II" />
+        <Game code="CLV-H-WEOMQ" name="Dragon Warrior III" />
+        <Game code="CLV-H-EEOAE" name="Dragon Warrior 4" />
+        <Game code="CLV-P-GNFSH" name="Dragon Warrior VII" />
+      </Folder>
+      <Folder name="Final Fantasy" icon="folder" position="3">
+        <Game code="CLV-U-SCOBX" name="Final Fantasy - Mystic Quest" />
+        <Game code="CLV-H-RNIEF" name="Final Fantasy" />
+        <Game code="CLV-H-VQSVD" name="Final Fantasy 1 &amp; 2" />
+        <Game code="CLV-H-FRCNL" name="Final Fantasy 2" />
+        <Game code="CLV-H-UDOMZ" name="Final Fantasy 3" />
+        <Game code="CLV-B-GBWZG" name="Final Fantasy Adventure" />
+        <Game code="CLV-U-ZZEZR" name="Final Fantasy II" />
+        <Game code="CLV-U-MXZET" name="Final Fantasy III" />
+        <Game code="CLV-P-JBYQO" name="Final Fantasy IX" />
+        <Game code="CLV-B-OCUSH" name="Final Fantasy Legend II" />
+        <Game code="CLV-B-OEBGI" name="Final Fantasy Legend III" />
+        <Game code="CLV-B-LIFAY" name="Final Fantasy Legend, The" />
+        <Game code="CLV-F-TKWLI" name="Final Fantasy Tactics" />
+        <Game code="CLV-P-ERQHO" name="Final Fantasy VII" />
+        <Game code="CLV-P-JXTEE" name="Final Fantasy VIII" />
+      </Folder>
+      <Folder name="Fire Emblem" icon="folder" position="3">
+        <Game code="CLV-H-KJOGO" name="Fire Emblem" />
+        <Game code="CLV-H-PUQZY" name="Fire Emblem Gaiden" />
+      </Folder>
+      <Folder name="Lufia" icon="folder" position="3">
+        <Game code="CLV-U-GNADX" name="Lufia &amp; The Fortress of Doom" />
+        <Game code="CLV-U-HRHVH" name="Lufia II - Rise of the Sinistrals" />
+      </Folder>
+      <Folder name="Parasite Eve" icon="folder" position="3">
+        <Game code="CLV-P-PCAEI" name="Parasite Eve" />
+      </Folder>
+      <Folder name="Pokémon" icon="folder" position="3">
+        <Game code="CLV-B-ESWZF" name="Pokemon - Blue Version" />
+        <Game code="CLV-B-PNCZP" name="Pokemon Green" />
+        <Game code="CLV-B-ZOFXD" name="Pokemon Red" />
+      </Folder>
+      <Folder name="Shining Force" icon="folder" position="3">
+        <Game code="CLV-I-UYRYV" name="Shining Force genesis" />
+        <Game code="CLV-I-TWNIC" name="Shining Force II sega" />
+      </Folder>
+      <Folder name="Wild Arms" icon="folder" position="3">
+        <Game code="CLV-F-RMNUD" name="Wild Arms" />
+      </Folder>
+    </Folder>
+    <Folder name="Shmup" icon="folder" position="3">
+      <Folder name="Contra" icon="folder" position="3">
+        <Game code="CLV-F-GIWHN" name="C - The Contra Adventure" />
+        <Game code="CLV-H-WBAOK" name="Contra" />
+        <Game code="CLV-H-BGWVY" name="Contra Force" />
+      </Folder>
+      <Folder name="Gradius" icon="folder" position="3">
+        <Game code="CLV-A-PWWOK" name="0220 - Gradius Galaxies" />
+        <Game code="CLV-U-FBUON" name="Gradius III" />
+      </Folder>
+      <Folder name="Smash TV" icon="folder" position="3">
+        <Game code="CLV-I-SVAIA" name="Smash TV" />
+      </Folder>
+      <Folder name="Zombies Ate My Neighbors" icon="folder" position="3">
+        <Game code="CLV-I-PCJYG" name="Zombies Ate My Neighbors" />
+      </Folder>
+    </Folder>
+    <Folder name="Sports" icon="folder" position="3">
+      <Folder name="Bowling" icon="folder" position="3" />
+      <Folder name="California Games" icon="folder" position="3">
+        <Game code="CLV-H-GSMLE" name="California Games" />
+      </Folder>
+      <Folder name="F-Zero" icon="folder" position="3">
+        <Game code="CLV-A-GKXDN" name="0041 - F-Zero - Maximum Velocity" />
+        <Game code="CLV-U-EACUQ" name="F-Zero" />
+        <Game code="CLV-6-GBRGZ" name="F-ZERO X" />
+      </Folder>
+      <Folder name="Marble Madness" icon="folder" position="3">
+        <Game code="CLV-C-VUDJM" name="Marble Madness" />
+        <Game code="CLV-B-GNZWD" name="Marble Madness" />
+        <Game code="CLV-I-EMQXA" name="Marble Madness" />
+      </Folder>
+      <Folder name="Mario Golf" icon="folder" position="3">
+        <Game code="CLV-B-LKKGF" name="Golf" />
+        <Game code="CLV-6-CPCDW" name="Mario Golf" />
+      </Folder>
+      <Folder name="Mario Tennis" icon="folder" position="3">
+        <Game code="CLV-6-KLSMJ" name="Mario Tennis" />
+      </Folder>
+      <Folder name="Off Road" icon="folder" position="3">
+        <Game code="CLV-B-WDEAG" name="Super Off Road" />
+        <Game code="CLV-I-UMURC" name="Super Offroad" />
+      </Folder>
+      <Folder name="Road Rash" icon="folder" position="3">
+        <Game code="CLV-I-APTOK" name="Road Rash" />
+        <Game code="CLV-I-UEMUF" name="Road Rash 3" />
+        <Game code="CLV-I-ZUSJU" name="Road Rash II" />
+      </Folder>
+      <Folder name="Tony Hawk's Pro Skater" icon="folder" position="3">
+        <Game code="CLV-A-OLNVM" name="0033 - Tony Hawk's Pro Skater 2" />
+        <Game code="CLV-A-ADWLQ" name="0335 - Tony Hawk's Pro Skater 3" />
+        <Game code="CLV-F-TLPLX" name="Tony Hawk's Pro Skater" />
+        <Game code="CLV-F-PYZSO" name="Tony Hawk's Pro Skater 2" />
+        <Game code="CLV-F-PUQFU" name="Tony Hawk's Pro Skater 3" />
+        <Game code="CLV-F-JUAAA" name="Tony Hawk's Pro Skater 4" />
+      </Folder>
+      <Folder name="Twisted Metal" icon="folder" position="3">
+        <Game code="CLV-F-RYGTF" name="Twisted Metal" />
+        <Game code="CLV-F-BMCJN" name="Twisted Metal 2" />
+        <Game code="CLV-F-ZXNNJ" name="Twisted Metal 4" />
+        <Game code="CLV-F-RVTYJ" name="Twisted Metal III" />
+      </Folder>
+      <Folder name="Wrestling" icon="folder" position="3">
+        <Game code="CLV-I-VSDXP" name="WWF RAW" />
+        <Game code="CLV-I-SLJDJ" name="WWF Royal Rumble" />
+        <Game code="CLV-I-NKLHY" name="WWF Super Wrestlemania" />
+      </Folder>
+    </Folder>
+    <Folder name="Strategy" icon="folder" position="3">
+      <Folder name="Command &amp; Conquer" icon="folder" position="3">
+        <Game code="CLV-P-PKGSW" name="Command &amp; Conquer" />
+        <Game code="CLV-P-IYWWG" name="Command &amp; Conquer - Red Alert" />
+        <Game code="CLV-P-CJKOR" name="Command &amp; Conquer - Red Alert - Retaliation" />
+      </Folder>
+    </Folder>
+    <Folder name="Warner Bros." icon="folder" position="3">
+      <Game code="CLV-B-BPKNK" name="Looney Tunes" />
+      <Game code="CLV-B-JILTS" name="Tiny Toon Adventures 2 - Montana's Movie Madness" />
+    </Folder>
+  </Folder>
+  <Folder name="Standalone" icon="folder" position="3">
+    <Folder name="Card Games" icon="folder" position="3">
+      <Game code="CLV-C-YKNCL" name="Pokemon Card GB" />
+      <Game code="CLV-C-HMHQC" name="Pokemon Card GB2 - GR Dan Sanjou!" />
+      <Game code="CLV-C-FCDVK" name="Pokemon Trading Card Game" />
+      <Game code="CLV-C-FINDU" name="Uno" />
+      <Game code="CLV-C-CLHCX" name="Yu-Gi-Oh! Dark Duel Stories" />
+      <Game code="CLV-C-RZVXV" name="Yu-Gi-Oh! Duel Monsters 4 - Saikyou Kettousha Senki - Kaiba Deck" />
+      <Game code="CLV-F-KTVNG" name="Yu-Gi-Oh! Forbidden Memories" />
+      <Game code="CLV-C-ANXRC" name="Yu-Gi-Oh! Monster Capsule GB" />
+    </Folder>
+    <Folder name="Gameboy" icon="folder" position="3">
+      <Folder name="Action Adventure" icon="folder" position="3">
+        <Game code="CLV-B-TVHJF" name="Kid Dracula" />
+        <Game code="CLV-B-UTMCW" name="Mighty Morphin Power Rangers" />
+      </Folder>
+      <Folder name="Fighting" icon="folder" position="3">
+        <Game code="CLV-B-DAVBA" name="Pit Fighter" />
+      </Folder>
+    </Folder>
+    <Folder name="Gameboy Advance" icon="folder" position="3">
+      <Game code="CLV-A-QZCHJ" name="0036 - Chu Chu Rocket!" />
+      <Game code="CLV-A-AGIRU" name="0040 - Super Dodge Ball Advance" />
+      <Game code="CLV-A-HJOSY" name="0131 - Lego Island 2 - The Brickster's Revenge" />
+      <Game code="CLV-A-JDQCZ" name="0165 - MegaMan Battle Network" />
+      <Game code="CLV-A-OBMCB" name="0171 - Golden Sun" />
+      <Game code="CLV-A-LJNYU" name="0183 - Mat Hoffman's Pro BMX" />
+      <Game code="CLV-A-OGCRJ" name="0198 - Rampage - Puzzle Attack" />
+      <Game code="CLV-A-XVVPP" name="0284 - Tekken Advance" />
+      <Game code="CLV-A-IGJON" name="0290 - Sonic Advance" />
+      <Game code="CLV-A-QTVDU" name="0297 - Super Mario World - Super Mario Advance 2" />
+      <Game code="CLV-A-POTUZ" name="0299 - Advance Wars" />
+      <Game code="CLV-A-LMXHQ" name="0403 - Breath of Fire 2" />
+      <Game code="CLV-A-CFFFY" name="0447 - Dragon Ball Z - Collectible Card Game" />
+    </Folder>
+    <Folder name="Gameboy Color" icon="folder" position="3">
+      <Folder name="Action Adventure" icon="folder" position="3">
+        <Game code="CLV-C-CUUHJ" name="Animorphs" />
+        <Game code="CLV-C-SHITH" name="Blaster Master - Enemy Below" />
+        <Game code="CLV-C-YQEIF" name="Bubble Bobble" />
+        <Game code="CLV-C-PPLQC" name="Ghosts 'N Goblins" />
+        <Game code="CLV-C-PTRYA" name="Mr. Driller" />
+        <Game code="CLV-C-YBUHM" name="Power Rangers - Lightspeed Rescue" />
+        <Game code="CLV-C-VQLOS" name="Power Rangers - Time Force" />
+        <Game code="CLV-C-CLJXM" name="Rampart" />
+        <Game code="CLV-C-ZLLYM" name="Road Rash" />
+        <Game code="CLV-C-OZSIC" name="Turok - Rage Wars" />
+        <Game code="CLV-C-IXOYF" name="Turok 2 - Seeds of Evil" />
+        <Game code="CLV-C-MKDAG" name="Turok 3 - Shadow of Oblivion" />
+      </Folder>
+      <Folder name="Puzzle" icon="folder" position="3">
+        <Game code="CLV-C-AGWFW" name="Klax" />
+        <Game code="CLV-C-ZNMTJ" name="Magical Drop" />
+        <Game code="CLV-C-EDTHX" name="Magical Tetris Challenge" />
+        <Game code="CLV-C-ZWUBP" name="Microsoft Puzzle Collection" />
+        <Game code="CLV-F-EZUUJ" name="Mr. Driller" />
+        <Game code="CLV-C-ASEHG" name="Pokemon Puzzle Challenge" />
+        <Game code="CLV-C-YOSLZ" name="Tetris DX" />
+      </Folder>
+      <Folder name="RPGs" icon="folder" position="3">
+        <Game code="CLV-C-PJKRZ" name="Crystalis" />
+        <Game code="CLV-C-IKOTB" name="Dragon Warrior I &amp; II" />
+        <Game code="CLV-C-IOJDT" name="Dragon Warrior III" />
+        <Game code="CLV-C-LZPWE" name="Dragon Warrior Monsters" />
+        <Game code="CLV-C-BONXN" name="Dragon Warrior Monsters 2 - Cobi's Journey" />
+        <Game code="CLV-C-AXZWE" name="Dragon Warrior Monsters 2 - Tara's Adventure" />
+        <Game code="CLV-C-GNQYC" name="Heroes of Might and Magic" />
+        <Game code="CLV-C-VKNCD" name="Heroes of Might and Magic II" />
+        <Game code="CLV-C-ZZHPG" name="Legend of the River King 2" />
+        <Game code="CLV-C-VYRGW" name="Legend of the River King GB" />
+        <Game code="CLV-C-AIXKK" name="Lufia - The Legend Returns" />
+        <Game code="CLV-C-CQQDP" name="Pokemon - Crystal Version" />
+        <Game code="CLV-C-KBNEJ" name="Pokemon - Gold Version" />
+        <Game code="CLV-C-GTJXL" name="Pokemon - Silver Version" />
+        <Game code="CLV-C-IBHWD" name="Pokemon - Yellow Version" />
+      </Folder>
+      <Folder name="Sports" icon="folder" position="3">
+        <Game code="CLV-C-HJXTR" name="3D Pocket Pool" />
+        <Game code="CLV-C-IGVVK" name="3-D Ultra Pinball - Thrillride" />
+        <Game code="CLV-C-WMXMM" name="Black Bass - Lure Fishing" />
+        <Game code="CLV-C-TKSRV" name="Mario Golf" />
+        <Game code="CLV-C-EJDPC" name="Mario Tennis" />
+        <Game code="CLV-C-FAPMK" name="Microsoft Pinball Arcade" />
+        <Game code="CLV-C-QUXZI" name="Pokemon Pinball" />
+        <Game code="CLV-C-OYAAZ" name="Pro Pool" />
+        <Game code="CLV-C-EAPJC" name="Tony Hawk's Pro Skater" />
+        <Game code="CLV-C-LORNE" name="Tony Hawk's Pro Skater 2" />
+        <Game code="CLV-C-TDENX" name="Tony Hawk's Pro Skater 3" />
+        <Game code="CLV-C-ACBYR" name="Ultimate Fighting Championship" />
+        <Game code="CLV-C-WCXZR" name="WWF Attitude" />
+        <Game code="CLV-C-VNXXO" name="WWF Betrayal" />
+        <Game code="CLV-C-CLUUN" name="WWF WrestleMania 2000" />
+      </Folder>
+    </Folder>
+    <Folder name="Genesis" icon="folder" position="3">
+      <Folder name="Action Adventure" icon="folder" position="3">
+        <Game code="CLV-I-TKTHH" name="Toejam &amp; Earl" />
+        <Game code="CLV-I-DAIWQ" name="Toejam &amp; Earl in Panic on Funkotron" />
+      </Folder>
+      <Folder name="Fightning" icon="folder" position="3">
+        <Game code="CLV-I-MXVSM" name="Virtua Fighter 2" />
+      </Folder>
+      <Folder name="Platformer" icon="folder" position="3">
+        <Game code="CLV-I-SVOEE" name="Jurassic Park" />
+        <Game code="CLV-I-NCCDZ" name="Jurassic Park - Rampage Edition" />
+        <Game code="CLV-I-OPYNZ" name="Splatterhouse 2" />
+        <Game code="CLV-I-TYZCB" name="Trampoline Terror!" />
+        <Game code="CLV-I-RIFDR" name="Turrican" />
+        <Game code="CLV-I-WVMTY" name="Vectorman" />
+        <Game code="CLV-I-FQQFC" name="Vectorman 2" />
+        <Game code="CLV-I-LLKOK" name="Wolverine Adamantium Rage" />
+        <Game code="CLV-I-NUAXB" name="X-Men" />
+        <Game code="CLV-I-STJDO" name="X-Men 2 - Clone Wars" />
+      </Folder>
+      <Folder name="Puzzle" icon="folder" position="3" />
+      <Folder name="Racing" icon="folder" position="3">
+        <Game code="CLV-I-NOOZT" name="Super Hang-On" />
+        <Game code="CLV-I-OTLXQ" name="Turbo Outrun" />
+        <Game code="CLV-I-AUWGP" name="Virtua Racing" />
+      </Folder>
+      <Folder name="Sports" icon="folder" position="3">
+        <Game code="CLV-I-TYYRU" name="Side Pocket" />
+      </Folder>
+    </Folder>
+    <Folder name="N64" icon="n64" position="3">
+      <Folder name="Action Adventure" icon="folder" position="3">
+        <Game code="CLV-6-IQQPT" name="Banjo-Kazooie" />
+        <Game code="CLV-6-DLOYX" name="Banjo-Tooie" />
+        <Game code="CLV-6-MVOCF" name="Mega Man 64" />
+        <Game code="CLV-6-KCTXA" name="Robotron 64" />
+        <Game code="CLV-6-QGFNJ" name="Star Fox 64" />
+      </Folder>
+      <Folder name="Fighting" icon="folder" position="3">
+        <Game code="CLV-6-WUUIE" name="Fighter Destiny 2" />
+        <Game code="CLV-6-VCNFJ" name="Fighter's Destiny" />
+        <Game code="CLV-6-WQHBL" name="Fighting Force 64" />
+        <Game code="CLV-6-XZWWP" name="Pokemon Stadium" />
+        <Game code="CLV-6-RKZVJ" name="Pokemon Stadium 2" />
+        <Game code="CLV-6-CEGJZ" name="Super Smash Bros." />
+      </Folder>
+      <Folder name="FPS" icon="folder" position="3">
+        <Game code="CLV-6-RZZIV" name="Perfect Dark" />
+        <Game code="CLV-6-SYIKE" name="South Park" />
+      </Folder>
+      <Folder name="Photo Simulation" icon="folder" position="3">
+        <Game code="CLV-6-KYRPW" name="Pokemon Snap" />
+      </Folder>
+      <Folder name="Puzzle" icon="folder" position="3">
+        <Game code="CLV-6-VFFES" name="Wetrix" />
+        <Game code="CLV-6-BYSLX" name="Wheel of Fortune" />
+      </Folder>
+      <Folder name="Racing" icon="folder" position="3">
+        <Game code="CLV-6-LSSDN" name="1080 Snowboarding" />
+        <Game code="CLV-6-LGXYL" name="Cruis'n USA" />
+        <Game code="CLV-6-FABEE" name="Cruis'n World" />
+        <Game code="CLV-6-YAOBW" name="Diddy Kong Racing" />
+        <Game code="CLV-6-MMAVG" name="Excitebike 64" />
+        <Game code="CLV-6-IVLKY" name="Extreme-G" />
+        <Game code="CLV-6-XCKZU" name="Extreme-G XG2" />
+        <Game code="CLV-6-RUOPK" name="Mario Kart 64" />
+        <Game code="CLV-6-TXTJE" name="Off Road Challenge" />
+        <Game code="CLV-6-CIAPG" name="Snowboard Kids" />
+        <Game code="CLV-6-QWWZN" name="Snowboard Kids 2" />
+        <Game code="CLV-6-UTWGB" name="South Park Rally" />
+        <Game code="CLV-6-CEECG" name="Wave Race 64" />
+        <Game code="CLV-6-GJWJQ" name="Wipeout 64" />
+      </Folder>
+      <Folder name="RPG" icon="folder" position="3">
+        <Game code="CLV-6-WRZMJ" name="Hybrid Heaven" />
+        <Game code="CLV-6-RCKTR" name="Ogre Battle 64 - Person of Lordly Caliber" />
+        <Game code="CLV-6-AVTNJ" name="Paper Mario" />
+        <Game code="CLV-6-UYTWN" name="Quest 64" />
+      </Folder>
+      <Folder name="Sports" icon="folder" position="3">
+        <Game code="CLV-6-XHJKM" name="Pilotwings 64" />
+        <Game code="CLV-6-WCABW" name="Super Bowling 64" />
+      </Folder>
+    </Folder>
+    <Folder name="NES" icon="nes" position="3">
+      <Folder name="One Player" icon="folder" position="3">
+        <Game code="CLV-H-PIBMK" name="Excite-Bike" />
+      </Folder>
+      <Folder name="Two Players" icon="folder" position="3">
+        <Game code="CLV-H-OTXZO" name="Anticipation" />
+        <Game code="CLV-H-ZUFEF" name="Balloon Fight" />
+      </Folder>
+    </Folder>
+    <Folder name="Playstation" icon="folder" position="3">
+      <Folder name="Action Adventure" icon="folder" position="3">
+        <Game code="CLV-F-QEKOP" name="Buster Bros. Collection" />
+        <Game code="CLV-F-RLGFB" name="Capcom vs. SNK Pro" />
+        <Game code="CLV-F-ADCSG" name="Crash Bash" />
+        <Game code="CLV-F-BCAGN" name="Fifth Element, The" />
+        <Game code="CLV-F-ARKFQ" name="Grand Theft Auto" />
+        <Game code="CLV-F-QFPJT" name="Grand Theft Auto 2" />
+        <Game code="CLV-F-EVHRL" name="Incredible Crisis" />
+        <Game code="CLV-F-ZCKMQ" name="Jumping Flash!" />
+        <Game code="CLV-F-ATPYJ" name="Jumping Flash! 2" />
+        <Game code="CLV-F-STJSY" name="Klonoa - Door to Phantomile" />
+        <Game code="CLV-P-VMDSE" name="Metal Gear Solid" />
+      </Folder>
+      <Folder name="Beat'em up" icon="folder" position="3">
+        <Game code="CLV-F-NOTTJ" name="Fighting Force" />
+        <Game code="CLV-F-NCHFN" name="Fighting Force 2" />
+      </Folder>
+      <Folder name="Fighting" icon="folder" position="3">
+        <Game code="CLV-F-XERXR" name="Darkstalkers - The Night Warriors" />
+        <Game code="CLV-F-ALXWD" name="Darkstalkers 3" />
+        <Game code="CLV-F-RLQEN" name="Dead or Alive" />
+        <Game code="CLV-F-FSAOL" name="Dragon Ball GT - Final Bout" />
+        <Game code="CLV-F-QPIUW" name="Guilty Gear" />
+        <Game code="CLV-F-OGRGM" name="JoJo's Bizarre Adventure" />
+        <Game code="CLV-F-DMTMB" name="Marvel Super Heroes vs. Street Fighter" />
+        <Game code="CLV-F-HWVAS" name="Marvel vs. Capcom - Clash of Super Heroes" />
+        <Game code="CLV-F-XPDJB" name="Pocket Fighter" />
+        <Game code="CLV-F-CMCQZ" name="Rival Schools - United by Fate (Arcade)" />
+        <Game code="CLV-F-JPJPF" name="Rival Schools - United by Fate (Evolution)" />
+        <Game code="CLV-F-MHUKP" name="X-Men - Children of the Atom" />
+        <Game code="CLV-F-MNMXZ" name="X-Men vs. Street Fighter" />
+      </Folder>
+      <Folder name="Golf" icon="folder" position="3">
+        <Game code="CLV-F-OZRWB" name="Game of Life, The" />
+      </Folder>
+      <Folder name="Puzzle" icon="folder" position="3">
+        <Game code="CLV-F-EEMGO" name="Bust A Groove" />
+        <Game code="CLV-F-VCNOS" name="Bust A Groove 2" />
+        <Game code="CLV-F-VIKZI" name="Myst" />
+        <Game code="CLV-F-RBKPE" name="Next Tetris, The" />
+        <Game code="CLV-F-AOSJF" name="Um Jammer Lammy" />
+        <Game code="CLV-F-IAAVZ" name="Wheel of Fortune" />
+        <Game code="CLV-F-EIGYZ" name="Wheel of Fortune - 2nd Edition" />
+        <Game code="CLV-F-LNQMF" name="Who Wants to Be a Millionaire - 2nd Edition" />
+        <Game code="CLV-F-RAUME" name="Who Wants to Be a Millionaire - 3rd Edition" />
+        <Game code="CLV-P-WMEAJ" name="You Don't Know Jack" />
+        <Game code="CLV-F-JFJMI" name="You Don't Know Jack - Mock 2" />
+      </Folder>
+      <Folder name="Racing" icon="folder" position="3">
+        <Game code="CLV-F-DWVRS" name="Bomberman Fantasy Race" />
+        <Game code="CLV-F-KEPZQ" name="Chocobo Racing" />
+        <Game code="CLV-F-OQEMP" name="Driver - You Are the Wheelman" />
+        <Game code="CLV-P-FADBH" name="Driver 2" />
+        <Game code="CLV-F-SVEWX" name="Gran Turismo" />
+        <Game code="CLV-F-NFXJX" name="Gran Turismo 2" />
+        <Game code="CLV-F-YAWAS" name="Vigilante 8" />
+        <Game code="CLV-F-XYMPW" name="Vigilante 8 - 2nd Offense" />
+        <Game code="CLV-F-KLVYL" name="WipEout" />
+        <Game code="CLV-F-PTPJW" name="WipEout 3" />
+        <Game code="CLV-F-MGFSY" name="Wipeout XL" />
+      </Folder>
+      <Folder name="RPGs" icon="folder" position="3">
+        <Game code="CLV-F-MWQNN" name="Alundra" />
+        <Game code="CLV-P-MGBGV" name="Chrono Cross" />
+        <Game code="CLV-F-IZZNZ" name="Diablo" />
+        <Game code="CLV-P-UWXPC" name="Galerians" />
+        <Game code="CLV-P-FXMXC" name="Grandia" />
+        <Game code="CLV-P-KNESF" name="Koudelka" />
+        <Game code="CLV-P-GDYBW" name="Lunar - Silver Star Story Complete" />
+        <Game code="CLV-F-ITYOR" name="Lunar - Silver Star Story Complete (The Making of)" />
+        <Game code="CLV-P-JXEKH" name="Lunar 2 - Eternal Blue Complete" />
+        <Game code="CLV-F-OFFWC" name="Lunar 2 - Eternal Blue Complete (The Making of)" />
+        <Game code="CLV-P-VBJWO" name="Parasite Eve II" />
+        <Game code="CLV-F-MJYGU" name="SaGa Frontier" />
+        <Game code="CLV-F-DFRAA" name="SaGa Frontier 2" />
+        <Game code="CLV-P-QLOUC" name="Star Ocean - The Second Story" />
+        <Game code="CLV-F-WUUHW" name="Suikoden" />
+        <Game code="CLV-F-SJBMT" name="Suikoden II" />
+        <Game code="CLV-P-OTDXD" name="Thousand Arms" />
+        <Game code="CLV-F-FFWXB" name="Vagrant Story" />
+        <Game code="CLV-P-PEVUZ" name="Valkyrie Profile" />
+        <Game code="CLV-F-GKBIM" name="Vandal Hearts" />
+        <Game code="CLV-F-MIVFV" name="Vandal Hearts II" />
+        <Game code="CLV-P-DWWCG" name="Wild Arms 2" />
+        <Game code="CLV-P-PRDRL" name="Xenogears" />
+      </Folder>
+      <Folder name="Strategy" icon="folder" position="3">
+        <Game code="CLV-F-TMCTN" name="WarCraft II - The Dark Saga" />
+        <Game code="CLV-F-CXQNV" name="X-COM - UFO Defense" />
+      </Folder>
+      <Folder name="Survival Horror" icon="folder" position="3">
+        <Game code="CLV-F-EGSGR" name="Dino Crisis" />
+        <Game code="CLV-F-USFCL" name="Dino Crisis 2" />
+        <Game code="CLV-P-WWGBZ" name="Fear Effect" />
+        <Game code="CLV-P-YYVJI" name="Fear Effect 2 - Retro Helix" />
+        <Game code="CLV-F-DJKTX" name="Silent Hill" />
+      </Folder>
+    </Folder>
+    <Folder name="SNES" icon="folder" position="3">
+      <Folder name="One Player" icon="folder" position="3">
+        <Game code="CLV-U-WIWSJ" name="Illusion of Gaia" />
+        <Game code="CLV-U-MBHPK" name="Lemmings" />
+        <Game code="CLV-U-YUYEN" name="Lemmings 2 - The Tribes" />
+        <Game code="CLV-U-HMZWD" name="Magic Sword" />
+        <Game code="CLV-U-KLJOB" name="Mega Man 7" />
+        <Game code="CLV-U-NPEHB" name="Michael Jordan - Chaos in the Windy City" />
+        <Game code="CLV-U-JKVYN" name="NBA Jam - Tournament Edition" />
+        <Game code="CLV-U-GXZPL" name="Ogre Battle - The March of the Black Queen" />
+        <Game code="CLV-U-UPTSQ" name="On the Ball" />
+        <Game code="CLV-U-PJJQQ" name="Pilotwings" />
+        <Game code="CLV-U-VOEZH" name="Populous" />
+        <Game code="CLV-U-AIBAA" name="Secret of Evermore" />
+        <Game code="CLV-U-XVQVM" name="SimCity" />
+        <Game code="CLV-U-PESJX" name="SimCity 2000" />
+        <Game code="CLV-U-DWXEP" name="Soul Blazer" />
+        <Game code="CLV-U-DNWVX" name="Spindizzy Worlds" />
+        <Game code="CLV-U-SGSQX" name="Super Adventure Island" />
+        <Game code="CLV-U-VDBIB" name="Super Adventure Island II" />
+      </Folder>
+      <Folder name="Preloaded" icon="folder" position="3">
+        <Game code="CLV-P-SACCE" name="CONTRA III THE ALIEN WARS" />
+        <Game code="CLV-P-SAALE" name="Donkey Kong Country" />
+        <Game code="CLV-P-SAAJE" name="EarthBound" />
+        <Game code="CLV-P-SABTE" name="Final Fantasy III" />
+        <Game code="CLV-P-SAABE" name="F-ZERO" />
+        <Game code="CLV-P-SAAQE" name="Kirby Super Star" />
+        <Game code="CLV-P-SAAKE" name="Kirby's Dream Course" />
+        <Game code="CLV-P-SABCE" name="Mega Man X" />
+        <Game code="CLV-P-SABRE" name="Secret of Mana" />
+        <Game code="CLV-I-GFDJM" name="Shining in the Darkness" />
+        <Game code="CLV-P-SADGE" name="Star Fox" />
+        <Game code="CLV-P-SADKE" name="Star Fox 2" />
+        <Game code="CLV-P-SABHE" name="Street Fighter II Turbo: Hyper Fighting" />
+        <Game code="CLV-P-SACBE" name="Super Castlevania IV" />
+        <Game code="CLV-P-SABDE" name="Super Ghouls'n Ghosts" />
+        <Game code="CLV-P-SAAFE" name="Super Mario Kart" />
+        <Game code="CLV-P-SABQE" name="Super Mario RPG: Legend of the Seven Stars" />
+        <Game code="CLV-P-SAAAE" name="Super Mario World" />
+        <Game code="CLV-P-SAAHE" name="Super Metroid" />
+        <Game code="CLV-P-SAAXE" name="Super Punch-Out!!" />
+        <Game code="CLV-P-SAAEE" name="The Legend of Zelda: A Link to the Past" />
+        <Game code="CLV-P-SADJE" name="Yoshi's Island" />
+      </Folder>
+      <Folder name="Two Player" icon="folder" position="3">
+        <Game code="CLV-U-LLVEF" name="King of Dragons, The" />
+        <Game code="CLV-U-IJAQA" name="Knights of the Round" />
+        <Game code="CLV-U-ACOHF" name="Mega Man Soccer" />
+        <Game code="CLV-U-CJXTU" name="Mighty Morphin Power Rangers" />
+        <Game code="CLV-U-QHYIC" name="Mighty Morphin Power Rangers - The Fighting Edition" />
+        <Game code="CLV-U-HOEOG" name="Mighty Morphin Power Rangers - The Movie" />
+        <Game code="CLV-U-LFKDE" name="NBA Jam" />
+        <Game code="CLV-0-KXKGG" name="Pit Fighter" />
+        <Game code="CLV-U-RLHWM" name="Pocky &amp; Rocky" />
+        <Game code="CLV-U-ZEONC" name="Pocky &amp; Rocky 2" />
+        <Game code="CLV-U-EZUDP" name="Rampart" />
+        <Game code="CLV-U-XFJBY" name="Rock n' Roll Racing" />
+        <Game code="CLV-U-CRQUB" name="Secret of Mana" />
+        <Game code="CLV-U-VQPYV" name="Shaq Fu" />
+        <Game code="CLV-U-KBIEB" name="Side Pocket" />
+        <Game code="CLV-U-TRNSM" name="Stunt Race FX" />
+        <Game code="CLV-U-OGBDW" name="Sunset Riders" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Tree>
