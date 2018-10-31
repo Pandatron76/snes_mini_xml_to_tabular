@@ -5,20 +5,7 @@ __description__ = "Translates the SNES Minis XML file structure format to the co
 # TODO: Add support for Sega CD, NeoGeo, Mame and Sega Saturn
 
 import xml.etree.ElementTree as Et
-
-
-# Creates an object to store the name of the console, games on it and where they are located on the snes_mini
-class EntertainmentConsole:
-    def __init__(self, console_name):
-        self.console_name = console_name
-        self.list_of_games = []
-        self.games_location = []
-
-    def add_game_to_list(self, game):
-        self.list_of_games.append(game)
-
-    def add_game_location(self, location):
-        self.games_location.append(location)
+from entertainment_console import EntertainmentConsole
 
 
 # For each console, check the game-code to see which console the game is associated to and add it to the consoles dict
