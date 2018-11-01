@@ -8,97 +8,56 @@ import xml.etree.ElementTree as Et
 from entertainment_console import EntertainmentConsole
 
 
-# For each console, check the game-code to see which console the game is associated to and add it to the consoles dict
-def add_game_to_list(current_location, tree_level, all_consoles_1):
+# For each console, check the game-code to see which console the game is associated to and add it to the console's list
+def add_game_information(console, current_location, tree_level):
+    expected_consoles = []
 
-    for console in all_consoles_1:
-        # Check the name of the console, see if it has a 'code' tag, make sure the code tag matches the expected name
+    # Build a list of expected consoles to compare against
+    for console_gcode_pair in console_list():
+        for console_name in console_gcode_pair.keys():
+            expected_consoles.append(console_name)
 
-        # Check for nes games
-        if 'NES' == console.console_name and \
-                tree_level.get('code') is not None and 'CLV-H' in tree_level.get('code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
+    # Check the name of the console, see if it has a 'code' tag, make sure the code tag matches the expected name
+    for expected_console in expected_consoles:
+        if expected_console == console.console_name and \
+            tree_level.get('code') is not None and \
+                console.game_code in tree_level.get('code') and \
+                expected_console != 'File/Folder Name':
 
-        # Check for snes games
-        if 'SNES' == console.console_name and \
-                tree_level.get('code') is not None and 'CLV-U' in tree_level.get('code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
+            # Store the game name and its location in a dict
+            console.add_game_location_dict(tree_level.get('name'), current_location)
 
-        # Check for gb games
-        if 'Gameboy' == console.console_name and \
-                tree_level.get('code') is not None and 'CLV-B' in tree_level.get('code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
-
-        # Check for gbc games
-        if 'Gameboy Color' == console.console_name and \
-                tree_level.get('code') is not None and 'CLV-C' in tree_level.get('code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
-
-        # Check for gba games
-        if 'Gameboy Advance' == console.console_name and \
-            tree_level.get('code') is not None and 'CLV-A' in tree_level.get(
-                'code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
-
-        # Check for n64 games
-        if 'Nintendo 64' == console.console_name and \
-                tree_level.get('code') is not None and 'CLV-6' in tree_level.get('code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
-
-        # Check for genesis games
-        if 'Genesis' == console.console_name and \
-                tree_level.get('code') is not None and 'CLV-I' in tree_level.get('code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
-
-        # Check for playstation games
-        if 'Playstation' == console.console_name and \
-                tree_level.get('code') is not None and 'CLV-F' in tree_level.get('code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
-
-        # Check for pre-loaded games
-        if 'Preloaded' == console.console_name and \
-                tree_level.get('code') is not None and 'CLV-P' in tree_level.get('code'):
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
-
-        # In most cases if the code tag returns None, it is likely a folder
-        if 'Folder Names' == console.console_name and tree_level.get('code') is None:
-            console.add_game_to_list(tree_level.get('name'))
-            console.add_game_location(current_location)
-
-    return all_consoles_1
+        if 'File/Folder Name' == console.console_name and tree_level.get('code') is None:
+            # Store the game name and its location in a dict
+            console.add_game_location_dict(tree_level.get('name'), current_location)
 
 
 # List of all the consoles. Will create an EntertainmentConsole object for each one
 def console_list():
-    return ['NES',
-            'SNES',
-            'Gameboy',
-            'Gameboy Color',
-            'Gameboy Advance',
-            'Nintendo 64',
-            'Genesis',
-            'Playstation',
-            'Preloaded',
-            'Folder Name']
+    return [{'NES': 'CLV-H'},
+            {'SNES': 'CLV-U'},
+            {'Gameboy': 'CLV-B'},
+            {'Gameboy Color': 'CLV-C'},
+            {'Gameboy Advance': 'CLV-A'},
+            {'Nintendo 64': 'CLV-6'},
+            {'Genesis': 'CLV-I'},
+            {'Playstation': 'CLV-F'},
+            {'Preloaded': 'CLV-P-S'},
+            {'File/Folder Name': ''}]
 
 
 #  Creates a tab delimited header with two columns, each row has the name of the console and the game's name/title
 #  TODO: Add support to indicate where the game is located (example: Series/MainStream/Mario)
 def output_to_txt(all_consoles_1, file_name):
-    final_string = 'Console Name\tTitle\tFolder Location\n'
+    final_string = 'Console Name\tTitle\tFile/Folder Name\n'
 
     for console in all_consoles_1:
-        for game_name, games_location in sorted(zip(console.list_of_games, console.games_location)):
-            final_string += "%s\t%s\t%s\n" % (console.console_name, game_name, games_location)
+        for game_name, games_location in sorted(console.game_location_dict.items()):
+            # Folders do not have game names and as such the name of the game for the folder should not be included
+            if console.console_name == 'File/Folder Name':
+                final_string += "%s\t\t%s\n" % (console.console_name, games_location)
+            else:
+                final_string += "%s\t%s\t%s\n" % (console.console_name, game_name, games_location)
 
     with open(file_name, 'w') as file:
         file.write(final_string)
@@ -109,8 +68,12 @@ def print_to_cli(all_consoles_1):
 
     for console in all_consoles_1:
         print(console.console_name)
-        for game_name, games_location in zip(console.list_of_games, console.games_location):
-            print("  %s\t%s\n" % (game_name, games_location))
+        # Folders do not have game names and as such the name of the game for the folder should not be included
+        for game_name, games_location in sorted(console.game_location_dict.items()):
+            if console.console_name == 'File/Folder Name':
+                print("  %s\n" % games_location)
+            else:
+                print("  %s\t%s\n" % (game_name, games_location))
 
 
 # TODO: Consolidate main, it should consist primarily/only function calls if possible
@@ -121,7 +84,14 @@ def main():
 
     # Create Entertainment Console List
     # TODO: Convert this into an object and allow the object to store attribute for folder location
-    all_consoles = [EntertainmentConsole(x) for x in console_list()]
+    # all_consoles = [EntertainmentConsole(x) for x in console_list()]
+    all_consoles = []
+
+    for console_gcode_dict in console_list():
+        for console_name, game_code in console_gcode_dict.items():
+            temp_console = EntertainmentConsole(console_name)
+            temp_console.add_game_code(game_code)
+            all_consoles.append(temp_console)
 
     # This file can be found in '..\hakchi2-ce\hakchi2-ce-x.y.z-debug\config\'
     with open('large_sample_folders_snes_usa.xml', 'r') as file:
@@ -144,12 +114,22 @@ def main():
         for category in top_level:
             # Series name if upper level is series OR genre if Standalone
             for genre in category:
-                current_location = str(top_level.get('name') + '\\' + category.get('name') + '\\' + genre.get('name'))
-                # print(str(top_level.get('name') + '\\' + category.get('name') + '\\' + genre.get('name')))
-                add_game_to_list(current_location, genre, all_consoles)
+
                 # Names of games in the series OR name of individual game
+                current_location = str(top_level.get('name') + '\\' +
+                                       category.get('name') + '\\' +
+                                       genre.get('name'))
+                for console in all_consoles:
+                    add_game_information(console, current_location, genre)
+
+                # Names of games in the series folder. This cover the last depth
                 for genre_name in genre:
-                    add_game_to_list(current_location, genre_name, all_consoles)
+                    current_location = str(top_level.get('name') + '\\' +
+                                           category.get('name') + '\\' +
+                                           genre.get('name') + '\\' +
+                                           genre_name.get('name'))
+                    for console in all_consoles:
+                        add_game_information(console, current_location, genre_name)
 
     # Print to the Command Line/Terminal
     print_to_cli(all_consoles)
