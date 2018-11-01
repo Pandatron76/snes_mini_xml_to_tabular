@@ -2,11 +2,11 @@
 class EntertainmentConsole:
     def __init__(self, console_name):
         self.console_name = console_name
-        self.list_of_games = []
-        self.games_location = []
+        self.game_code = ''
+        self.game_location_dict = {}
 
-    def add_game_to_list(self, game):
-        self.list_of_games.append(game)
+    def add_game_code(self, code):
+        self.game_code = code
 
-    def add_game_location(self, location):
-        self.games_location.append(location)
+    def add_game_location_dict(self, game, location):
+        self.game_location_dict[game] = location
