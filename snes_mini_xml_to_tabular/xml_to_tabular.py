@@ -4,6 +4,8 @@ __description__ = "Translates the SNES Minis XML file structure format to the co
 
 # TODO: Add support for Sega CD, NeoGeo, Mame and Sega Saturn
 
+import os
+import sys
 import xml.etree.ElementTree as Et
 from entertainment_console import EntertainmentConsole
 
@@ -78,6 +80,8 @@ def print_to_cli(all_consoles_1):
 
 # TODO: Consolidate main, it should consist primarily/only function calls if possible
 def main():
+    # Create a place to store the xml file name
+    xml_file = ''
 
     # Create a place to store the xml data in memory
     xml_data = ''
@@ -87,6 +91,27 @@ def main():
     # all_consoles = [EntertainmentConsole(x) for x in console_list()]
     all_consoles = []
 
+    # Check to make sure at least one command line argument is provided
+    try:
+        xml_file = sys.argv[1]
+    except IndexError:
+        print("At least one argument ")
+
+    # Check to make sure the file exist
+    if not os.path.isfile(xml_file):
+        print("File name provided '%s', does not exist." % xml_file)
+        print("Please move this file to the working directory of this script")
+        print('Concluding script execution')
+        exit(0)
+
+    print(os.path.splitext(xml_file))
+
+    # Make sure the file is an xml file
+    if os.path.splitext(xml_file)[1] != '.xml':
+        print("File name provided '%s', does not have an .xml extension." % xml_file)
+        print('Concluding script execution')
+        exit(0)
+
     for console_gcode_dict in console_list():
         for console_name, game_code in console_gcode_dict.items():
             temp_console = EntertainmentConsole(console_name)
@@ -94,7 +119,7 @@ def main():
             all_consoles.append(temp_console)
 
     # This file can be found in '..\hakchi2-ce\hakchi2-ce-x.y.z-debug\config\'
-    with open('large_sample_folders_snes_usa.xml', 'r') as file:
+    with open(xml_file, 'r') as file:
         for line in file:
             xml_data += line
 
