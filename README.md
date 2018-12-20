@@ -1,5 +1,3 @@
-"# snes_mini_xml_to_tabular" 
-
 ## Introductions
 As a result of understanding how games are loaded to the Hakchi2 via a USB drive,
 the folder structure continued to become increasing more labyrinthine in nature.
